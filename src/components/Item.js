@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Filter from "./Filter";
 
 function Item({ name, category }) {
   const [isInCart, setIsInCart] = useState(false);
